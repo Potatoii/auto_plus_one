@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         斗鱼弹幕自动加一
 // @namespace    https://github.com/Potatoii/auto_plus_one
-// @version      1.0
+// @version      1.1
 // @description  监控斗鱼直播间弹幕，当连续5秒内有N条相同弹幕时自动发送，支持屏蔽词管理、触发阈值编辑、发送历史、拖拽折叠、1小时去重、本地存储配置
 // @author       Rikki
 // @match		*://*.douyu.com/0*
