@@ -97,6 +97,7 @@
             minCount: CONFIG.MIN_COUNT,
             panelPosition: state.panelPosition,
             isRunning: state.isRunning,
+            isPanelCollapsed: state.isPanelCollapsed,
             version: '1.0'
         };
         Storage.save(configToSave);
@@ -132,6 +133,12 @@
         if (typeof saved.isRunning === 'boolean') {
             state.isRunning = saved.isRunning;
             logger.log(`▶️ 已加载运行状态: ${state.isRunning ? '开启' : '关闭'}`);
+        }
+
+        // 加载面板折叠状态
+        if (typeof saved.isPanelCollapsed === 'boolean') {
+            state.isPanelCollapsed = saved.isPanelCollapsed;
+            logger.log(`📁 已加载面板状态: ${state.isPanelCollapsed ? '隐藏' : '显示'}`);
         }
 
         logger.log('✅ 配置加载完成');
@@ -833,6 +840,7 @@
                 }, 300);
             }
         }
+        saveConfig(); // 保存面板折叠状态
     }
 
     function createMiniButton() {
@@ -1169,6 +1177,19 @@
 
         // 创建小按钮
         createMiniButton();
+
+        // 应用保存的面板折叠状态
+        if (state.isPanelCollapsed) {
+            const panel = document.getElementById('danmu-monitor-panel');
+            const miniBtn = document.getElementById('dm-mini-btn');
+            if (panel) {
+                panel.style.display = 'none';
+            }
+            if (miniBtn) {
+                miniBtn.style.display = 'flex';
+                miniBtn.style.transform = 'translateX(0)';
+            }
+        }
 
         // 根据保存的状态决定是否启动监控
         if (state.isRunning) {
