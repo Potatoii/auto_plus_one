@@ -1172,6 +1172,8 @@
 
         // 根据保存的状态决定是否启动监控
         if (state.isRunning) {
+            // 先重置状态，再调用 startMonitor 启动定时器
+            state.isRunning = false;
             startMonitor();
             logger.log('▶️ 已自动启动监控');
         } else {
