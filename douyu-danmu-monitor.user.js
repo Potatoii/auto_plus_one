@@ -2,7 +2,7 @@
 // @name         斗鱼弹幕自动加一
 // @namespace    https://github.com/Potatoii/auto_plus_one
 // @icon         data:image/png;base64,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
-// @version      2.1
+// @version      2.2
 // @description  监控斗鱼直播间弹幕，当连续5秒内有N条相同弹幕时自动发送，支持屏蔽词管理、触发阈值编辑、发送历史、拖拽折叠、1小时去重、本地存储配置
 // @author       Rikki
 // @match		*://*.douyu.com/0*
@@ -27,56 +27,85 @@
 
     // ========== 立即 Hook WebSocket（必须在斗鱼创建连接之前执行） ==========
     const pendingDanmu = [];
+    let pendingDanmuCursor = 0; // pendingDanmu 索引游标，替代 shift()
     const recentDanmuMap = new Map(); // 用于多连接去重 {dedupKey -> timestamp}
     const DEDUP_TTL = 2000; // 去重记录保留时间：2秒（多条连接重复弹幕最多延迟几百毫秒）
 
-    // 保存原始方法
-    const OrigAddEventListener = WebSocket.prototype.addEventListener;
-    const OrigSetAttribute = WebSocket.prototype.setAttribute; // noop, just in case
+    // 保存原始 WebSocket 构造函数
+    const OrigWebSocket = window.WebSocket;
 
-    // 用一个 WeakSet 记录已 hook 的 ws 实例
-    const hookedSockets = new WeakSet();
+    // WeakMap 保存每个 ws 实例对应的已包装 listener 集合 {ws -> Set<wrappedListeners>}
+    const wsListenerMap = new WeakMap();
+    // WeakMap 保存每个 ws 实例对应的已包装 onmessage handler {ws -> wrappedHandler}
+    const wsOnMessageMap = new WeakMap();
 
-    // 包装 addEventListener，拦截 message 事件
-    WebSocket.prototype.addEventListener = function(type, listener, options) {
-        if (type === 'message' && !hookedSockets.has(this)) {
-            hookedSockets.add(this);
-            const ws = this;
-            const wrappedListener = function(event) {
-                earlyIntercept(event);
-                if (listener) listener.call(ws, event);
-            };
-            return OrigAddEventListener.call(this, type, wrappedListener, options);
+    // 代理构造器方式 Hook WebSocket，不修改 prototype
+    window.WebSocket = function(url, protocols) {
+        const ws = protocols !== undefined
+            ? new OrigWebSocket(url, protocols)
+            : new OrigWebSocket(url);
+
+        // 初始化该实例的 listener 映射集合
+        wsListenerMap.set(ws, new Set());
+
+        // 拦截 addEventListener
+        const origAddEventListener = ws.addEventListener.bind(ws);
+        ws.addEventListener = function(type, listener, options) {
+            if (type === 'message' && listener) {
+                const wrappedSet = wsListenerMap.get(ws);
+                // 同一个原始 listener 只包装一次
+                if (!wrappedSet.has(listener)) {
+                    wrappedSet.add(listener);
+                    const wrappedListener = function(event) {
+                        earlyIntercept(event);
+                        if (listener) listener.call(ws, event);
+                    };
+                    // 保存包装后的 listener，用于后续移除时匹配
+                    wrappedSet.add(wrappedListener);
+                    origAddEventListener(type, wrappedListener, options);
+                    return;
+                }
+            }
+            origAddEventListener(type, listener, options);
+        };
+
+        // 拦截 onmessage setter/getter
+        const origOnMessageDescriptor = Object.getOwnPropertyDescriptor(OrigWebSocket.prototype, 'onmessage');
+        if (origOnMessageDescriptor) {
+            Object.defineProperty(ws, 'onmessage', {
+                get() {
+                    return origOnMessageDescriptor.get.call(ws);
+                },
+                set(handler) {
+                    if (handler) {
+                        // 包装 handler，同一个 ws 只保存最新的 wrapped handler
+                        const wrappedHandler = function(event) {
+                            earlyIntercept(event);
+                            if (handler) handler.call(ws, event);
+                        };
+                        wsOnMessageMap.set(ws, wrappedHandler);
+                        origOnMessageDescriptor.set.call(ws, wrappedHandler);
+                    } else {
+                        wsOnMessageMap.delete(ws);
+                        origOnMessageDescriptor.set.call(ws, handler);
+                    }
+                },
+                configurable: true,
+                enumerable: true,
+            });
         }
-        return OrigAddEventListener.call(this, type, listener, options);
+
+        return ws;
     };
 
-    // 包装 onmessage setter
-    const origOnMessageDescriptor = Object.getOwnPropertyDescriptor(WebSocket.prototype, 'onmessage');
-    if (origOnMessageDescriptor) {
-        Object.defineProperty(WebSocket.prototype, 'onmessage', {
-            get() {
-                return origOnMessageDescriptor.get.call(this);
-            },
-            set(handler) {
-                if (handler && !hookedSockets.has(this)) {
-                    hookedSockets.add(this);
-                    const ws = this;
-                    const wrappedHandler = function(event) {
-                        earlyIntercept(event);
-                        if (handler) handler.call(ws, event);
-                    };
-                    origOnMessageDescriptor.set.call(this, wrappedHandler);
-                } else {
-                    origOnMessageDescriptor.set.call(this, handler);
-                }
-            },
-            configurable: true,
-            enumerable: true,
-        });
-    }
+    // 继承原始 WebSocket 的原型链和静态属性
+    window.WebSocket.prototype = OrigWebSocket.prototype;
+    window.WebSocket.CONNECTING = OrigWebSocket.CONNECTING;
+    window.WebSocket.OPEN = OrigWebSocket.OPEN;
+    window.WebSocket.CLOSING = OrigWebSocket.CLOSING;
+    window.WebSocket.CLOSED = OrigWebSocket.CLOSED;
 
-    console.log('[弹幕监控] ✅ WebSocket Hook 已安装 (prototype级别)');
+    console.log('[弹幕监控] WebSocket Hook 已安装 (代理构造器方式)');
 
     // 统一的拦截处理
     function earlyIntercept(event) {
@@ -110,18 +139,34 @@
         return messages;
     }
 
+    // 从斗鱼协议字符串中提取字段值（用 indexOf/substring 替代正则）
+    // 斗鱼协议格式：type@=chatmsg/txt@=xxx/uid@=123/\0，值到下一个 '/' 或 '\0' 结束
+    function extractField(msg, fieldTag) {
+        const tag = fieldTag + '@=';
+        const idx = msg.indexOf(tag);
+        if (idx === -1) return null;
+        const start = idx + tag.length;
+        let end = start;
+        const len = msg.length;
+        while (end < len) {
+            const ch = msg.charCodeAt(end);
+            if (ch === 0x2F || ch === 0x00) break; // '/' 或 '\0'
+            end++;
+        }
+        return msg.substring(start, end);
+    }
+
     function earlyHandleMessage(msg) {
-        const typeMatch = msg.match(/type@=(.*?)[\/\x00]/);
-        if (!typeMatch) return;
-        if (typeMatch[1] === 'chatmsg') {
-            const contentMatch = msg.match(/txt@=(.*?)[\/\x00]/);
-            if (!contentMatch) return;
-            const text = contentMatch[1];
-            if (!text || text.length === 0 || text.length >= 100) return;
+        const type = extractField(msg, 'type');
+        if (!type) return;
+        if (type === 'chatmsg') {
+            const text = extractField(msg, 'txt');
+            if (!text) return;
+            if (text.length === 0 || text.length >= 100) return;
 
             // 用 uid + txt 作为唯一标识去重（同一用户同一内容）
-            const uidMatch = msg.match(/uid@=(\d+)[\/\x00]/);
-            const dedupKey = (uidMatch ? uidMatch[1] : '') + ':' + text;
+            const uid = extractField(msg, 'uid');
+            const dedupKey = (uid || '') + ':' + text;
 
             const now = Date.now();
             if (recentDanmuMap.has(dedupKey)) return;
@@ -148,6 +193,16 @@
         TOP_DANMU_COUNT: 5, // 显示前N条热门弹幕
         DEDUP_WINDOW: 3600000, // 去重时间窗口：1小时（毫秒）
     };
+
+    // ========== Fisher-Yates 洗牌算法 ==========
+    function shuffle(arr) {
+        const a = [...arr];
+        for (let i = a.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+    }
 
     // ========== 主动WebSocket连接（补充hook可能遗漏的弹幕） ==========
     const DouyuWS = {
@@ -237,8 +292,8 @@
         },
 
         start() {
-            // 同时连接多个端口
-            const shuffled = [...this.ports].sort(() => Math.random() - 0.5);
+            // 同时连接多个端口（Fisher-Yates 洗牌算法）
+            const shuffled = shuffle([...this.ports]);
             const selected = shuffled.slice(0, this.maxConnections);
             for (const port of selected) {
                 this.connect(port);
@@ -273,7 +328,6 @@
         currentTopDanmu: [], // 当前热门弹幕排行
         blockedWords: ['雪峰', '习', '练功', '÷', '🧊粉', '海啸', '尼', '狗', '犬', '冰粉', '畜', '⭕', '🐢'], // 屏蔽词列表
         checkIntervalId: null, // 检查定时器ID
-        panelIntervalId: null, // 面板更新定时器ID
     };
 
     // ========== 日志工具 ==========
@@ -382,12 +436,19 @@
 
     // ========== 弹幕监控核心逻辑 ==========
     function collectDanmu() {
-        // 从 pendingDanmu 中取出 hook 拦截到的弹幕
-        while (pendingDanmu.length > 0) {
-            const item = pendingDanmu.shift();
+        // 从 pendingDanmu 中取出 hook 拦截到的弹幕（用索引游标，避免 shift() 的 O(n) 开销）
+        while (pendingDanmuCursor < pendingDanmu.length) {
+            const item = pendingDanmu[pendingDanmuCursor];
+            pendingDanmuCursor++;
             if (!isBlockedWord(item.text)) {
                 state.danmuHistory.push(item);
             }
+        }
+
+        // 当游标超过数组长度一半时，一次性清理前半部分
+        if (pendingDanmuCursor > pendingDanmu.length / 2) {
+            pendingDanmu.splice(0, pendingDanmuCursor);
+            pendingDanmuCursor = 0;
         }
 
         // 清理过期数据
@@ -472,11 +533,27 @@
         }
     }
 
+    // danmuHistory 索引游标，替代 filter() 每次创建新数组
+    let danmuHistoryCursor = 0;
+
     function cleanOldDanmu(now) {
         const cutoff = now - CONFIG.TIME_WINDOW;
-        state.danmuHistory = state.danmuHistory.filter(
-            item => item.timestamp > cutoff
-        );
+        // 用二分查找找到过期边界
+        let lo = danmuHistoryCursor, hi = state.danmuHistory.length;
+        while (lo < hi) {
+            const mid = (lo + hi) >> 1;
+            if (state.danmuHistory[mid].timestamp <= cutoff) {
+                lo = mid + 1;
+            } else {
+                hi = mid;
+            }
+        }
+        // lo 就是第一个未过期的元素索引
+        if (lo > danmuHistoryCursor) {
+            state.danmuHistory.splice(danmuHistoryCursor, lo - danmuHistoryCursor);
+            // splice 会移动元素，游标保持为 0（因为总是从头部删除）
+        }
+        danmuHistoryCursor = 0;
     }
 
     // ========== 弹幕分析 ==========
@@ -723,6 +800,9 @@
                 }
             }
         }
+
+        // 面板更新合并到此处，减少 setInterval 数量
+        updatePanel();
     }
 
     // ========== 更新热门弹幕显示 ==========
@@ -1121,27 +1201,32 @@
         return div.innerHTML;
     }
 
+    // ========== 周期性内存清理 ==========
+    function periodicCleanup() {
+        const now = Date.now();
+        // 清理 recentDanmuMap 中超过 DEDUP_TTL 的记录
+        for (const [key, ts] of recentDanmuMap) {
+            if (now - ts > DEDUP_TTL) recentDanmuMap.delete(key);
+        }
+        // 清理 state.sentDanmu 中超过 DEDUP_WINDOW 的记录
+        for (const [key, ts] of state.sentDanmu) {
+            if (now - ts > CONFIG.DEDUP_WINDOW) state.sentDanmu.delete(key);
+        }
+    }
+
     // ========== 启动/停止 ==========
     function startMonitor() {
         if (state.isRunning) return;
 
         state.isRunning = true;
-        logger.log('🚀 弹幕监控已启动');
-
-        // 启动面板更新
-        state.panelIntervalId = setInterval(updatePanel, 500);
+        logger.log('弹幕监控已启动');
     }
 
     function stopMonitor() {
         if (!state.isRunning) return;
 
         state.isRunning = false;
-        logger.log('⏹️ 弹幕监控已停止');
-
-        if (state.panelIntervalId) {
-            clearInterval(state.panelIntervalId);
-            state.panelIntervalId = null;
-        }
+        logger.log('弹幕监控已停止');
     }
 
     function toggleMonitor() {
@@ -1176,6 +1261,9 @@
         // 始终启动弹幕收集和TOP5显示
         state.checkIntervalId = setInterval(checkAndSend, CONFIG.CHECK_INTERVAL);
 
+        // 每60秒执行一次周期性内存清理
+        setInterval(periodicCleanup, 60000);
+
         // 启动主动WebSocket连接（补充hook可能遗漏的弹幕）
         DouyuWS.start();
 
@@ -1209,14 +1297,20 @@
     // 延迟初始化，等待斗鱼页面完全加载
     setTimeout(init, 3000);
 
-    // 也监听页面变化（单页应用）
+    // 也监听页面变化（单页应用），使用 300ms 防抖节流
     let lastUrl = location.href;
+    let mutationDebounceTimer = null;
     new MutationObserver(() => {
         const url = location.href;
         if (url !== lastUrl) {
             lastUrl = url;
             logger.log('页面URL变化，重新初始化...');
-            setTimeout(init, 2000);
+            // 防抖：300ms 内只触发一次
+            if (mutationDebounceTimer) clearTimeout(mutationDebounceTimer);
+            mutationDebounceTimer = setTimeout(() => {
+                mutationDebounceTimer = null;
+                init();
+            }, 300);
         }
     }).observe(document, { subtree: true, childList: true });
 
