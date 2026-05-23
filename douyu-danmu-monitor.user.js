@@ -2,7 +2,7 @@
 // @name         斗鱼弹幕自动加一
 // @namespace    https://github.com/Potatoii/auto_plus_one
 // @icon         data:image/png;base64,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
-// @version      1.2
+// @version      2.0
 // @description  监控斗鱼直播间弹幕，当连续5秒内有N条相同弹幕时自动发送，支持屏蔽词管理、触发阈值编辑、发送历史、拖拽折叠、1小时去重、本地存储配置
 // @author       Rikki
 // @match		*://*.douyu.com/0*
@@ -19,21 +19,226 @@
 // @match		*://*.douyu.com/topic/*
 // @updateURL   https://raw.githubusercontent.com/Potatoii/auto_plus_one/main/douyu-danmu-monitor.user.js
 // @downloadURL https://raw.githubusercontent.com/Potatoii/auto_plus_one/main/douyu-danmu-monitor.user.js
-// @run-at       document-end
+// @run-at       document-start
 // ==/UserScript==
 
 (function() {
     'use strict';
 
+    // ========== 立即 Hook WebSocket（必须在斗鱼创建连接之前执行） ==========
+    const pendingDanmu = [];
+
+    // 保存原始方法
+    const OrigAddEventListener = WebSocket.prototype.addEventListener;
+    const OrigSetAttribute = WebSocket.prototype.setAttribute; // noop, just in case
+
+    // 用一个 WeakSet 记录已 hook 的 ws 实例
+    const hookedSockets = new WeakSet();
+
+    // 包装 addEventListener，拦截 message 事件
+    WebSocket.prototype.addEventListener = function(type, listener, options) {
+        if (type === 'message' && !hookedSockets.has(this)) {
+            hookedSockets.add(this);
+            const ws = this;
+            const wrappedListener = function(event) {
+                earlyIntercept(event);
+                if (listener) listener.call(ws, event);
+            };
+            return OrigAddEventListener.call(this, type, wrappedListener, options);
+        }
+        return OrigAddEventListener.call(this, type, listener, options);
+    };
+
+    // 包装 onmessage setter
+    const origOnMessageDescriptor = Object.getOwnPropertyDescriptor(WebSocket.prototype, 'onmessage');
+    if (origOnMessageDescriptor) {
+        Object.defineProperty(WebSocket.prototype, 'onmessage', {
+            get() {
+                return origOnMessageDescriptor.get.call(this);
+            },
+            set(handler) {
+                if (handler && !hookedSockets.has(this)) {
+                    hookedSockets.add(this);
+                    const ws = this;
+                    const wrappedHandler = function(event) {
+                        earlyIntercept(event);
+                        if (handler) handler.call(ws, event);
+                    };
+                    origOnMessageDescriptor.set.call(this, wrappedHandler);
+                } else {
+                    origOnMessageDescriptor.set.call(this, handler);
+                }
+            },
+            configurable: true,
+            enumerable: true,
+        });
+    }
+
+    console.log('[弹幕监控] ✅ WebSocket Hook 已安装 (prototype级别)');
+
+    // 统一的拦截处理
+    function earlyIntercept(event) {
+        try {
+            if (event.data instanceof ArrayBuffer) {
+                const messages = earlyDecode(event.data);
+                for (const msg of messages) {
+                    earlyHandleMessage(msg);
+                }
+            }
+        } catch (e) {
+            // 不要因为拦截出错影响斗鱼正常功能
+        }
+    }
+
+    function earlyDecode(buffer) {
+        const messages = [];
+        const bytes = new Uint8Array(buffer);
+        let offset = 0;
+        while (offset < bytes.length) {
+            if (offset + 4 > bytes.length) break;
+            const dataLen = new DataView(buffer, offset, 4).getUint32(0, true);
+            if (dataLen < 13 || offset + dataLen > bytes.length) break;
+            const msgBytes = bytes.slice(offset + 8, offset + dataLen - 1);
+            try {
+                const msg = new TextDecoder('utf-8', { fatal: false }).decode(msgBytes);
+                if (msg.trim()) messages.push(msg);
+            } catch (e) {}
+            offset += dataLen;
+        }
+        return messages;
+    }
+
+    function earlyHandleMessage(msg) {
+        const typeMatch = msg.match(/type@=(.*?)[\/\x00]/);
+        if (!typeMatch) return;
+        if (typeMatch[1] === 'chatmsg') {
+            const contentMatch = msg.match(/txt@=(.*?)[\/\x00]/);
+            if (contentMatch) {
+                const text = contentMatch[1];
+                if (text && text.length > 0 && text.length < 100) {
+                    pendingDanmu.push({ text, timestamp: Date.now() });
+                }
+            }
+        }
+    }
+
     // ========== 配置 ==========
     const CONFIG = {
         TIME_WINDOW: 5000, // 时间窗口：5秒（毫秒）
-        MIN_COUNT: 30, // 最少弹幕数量（可在面板中编辑）
+        MIN_COUNT: 10, // 最少弹幕数量（可在面板中编辑）
         CHECK_INTERVAL: 1000, // 检查间隔：1秒
         SEND_COOLDOWN: 3000, // 发送冷却时间：3秒
         MAX_LOG_HISTORY: 50, // 最大历史记录数
         TOP_DANMU_COUNT: 5, // 显示前N条热门弹幕
         DEDUP_WINDOW: 3600000, // 去重时间窗口：1小时（毫秒）
+    };
+
+    // ========== 主动WebSocket连接（补充hook可能遗漏的弹幕） ==========
+    const DouyuWS = {
+        connections: [], // 活跃的WebSocket连接
+        ports: [8501, 8502, 8503, 8504, 8505, 8506, 8507, 8508, 8509],
+        maxConnections: 3, // 同时保持的连接数
+        keepaliveTimers: [],
+
+        getRoomId() {
+            const match = location.pathname.match(/\/(\d+)/);
+            return match ? match[1] : null;
+        },
+
+        encode(msg) {
+            const msgBytes = new TextEncoder().encode(msg);
+            const dataLen = msgBytes.length + 9;
+            const buffer = new ArrayBuffer(4 + 4 + 4 + msgBytes.length + 1);
+            const view = new DataView(buffer);
+            view.setUint32(0, dataLen, true);
+            view.setUint32(4, dataLen, true);
+            view.setUint8(8, 0xb1);
+            view.setUint8(9, 0x02);
+            view.setUint8(10, 0x00);
+            view.setUint8(11, 0x00);
+            new Uint8Array(buffer).set(msgBytes, 12);
+            view.setUint8(12 + msgBytes.length, 0x00);
+            return buffer;
+        },
+
+        connect(port) {
+            const roomId = this.getRoomId();
+            if (!roomId) return;
+
+            const wsUrl = `wss://danmuproxy.douyu.com:${port}/`;
+            let ws;
+            try {
+                ws = new WebSocket(wsUrl);
+            } catch (e) {
+                return;
+            }
+
+            ws.binaryType = 'arraybuffer';
+            const idx = this.connections.length;
+
+            ws.onopen = () => {
+                ws.send(this.encode(`type@=loginreq/roomid@=${roomId}/`));
+                ws.send(this.encode(`type@=joingroup/rid@=${roomId}/gid@=-9999/`));
+                // 心跳
+                const timer = setInterval(() => {
+                    if (ws.readyState === WebSocket.OPEN) {
+                        const tick = Math.floor(Date.now() / 1000);
+                        ws.send(this.encode(`type@=keeplive/tick@=${tick}/\x00`));
+                    }
+                }, 15000);
+                this.keepaliveTimers.push(timer);
+            };
+
+            ws.onmessage = (event) => {
+                if (event.data instanceof ArrayBuffer) {
+                    const messages = earlyDecode(event.data);
+                    for (const msg of messages) {
+                        earlyHandleMessage(msg);
+                    }
+                }
+            };
+
+            ws.onclose = () => {
+                this.connections = this.connections.filter(c => c !== ws);
+                // 自动重连到另一个端口
+                setTimeout(() => this.connectRandom(), 3000);
+            };
+
+            ws.onerror = () => {
+                ws.close();
+            };
+
+            this.connections.push(ws);
+        },
+
+        connectRandom() {
+            if (this.connections.length >= this.maxConnections) return;
+            // 随机选一个还没连接的端口
+            const usedPorts = new Set();
+            // 无法直接知道用了哪些端口，随机选一个
+            const port = this.ports[Math.floor(Math.random() * this.ports.length)];
+            this.connect(port);
+        },
+
+        start() {
+            // 同时连接多个端口
+            const shuffled = [...this.ports].sort(() => Math.random() - 0.5);
+            const selected = shuffled.slice(0, this.maxConnections);
+            for (const port of selected) {
+                this.connect(port);
+            }
+        },
+
+        stop() {
+            for (const ws of this.connections) {
+                try { ws.close(); } catch (e) {}
+            }
+            this.connections = [];
+            for (const timer of this.keepaliveTimers) {
+                clearInterval(timer);
+            }
+            this.keepaliveTimers = [];
+        },
     };
 
     // ========== 状态管理 ==========
@@ -154,235 +359,24 @@
             try {
                 const el = document.querySelector(selector);
                 if (el) return el;
-            } catch (e) {
-                // 某些选择器可能无效，继续尝试下一个
-            }
+            } catch (e) {}
         }
         return null;
     }
 
-    // ========== 弹幕获取 ==========
-    function getDanmuElements() {
-        // 尝试多种方式获取弹幕元素
-        const selectors = [
-            '.Barrage-listItem',
-            '.ChatItem',
-            '[class*="Barrage"]',
-            '.danmu-item',
-            '.barrage-item',
-        ];
-
-        for (const selector of selectors) {
-            const elements = document.querySelectorAll(selector);
-            if (elements.length > 0) {
-                return Array.from(elements);
-            }
-        }
-
-        // 如果都找不到，尝试从页面文本中提取
-        return [];
-    }
-
-    function extractDanmuText(element) {
-        // 先检查是否是进场/礼物/系统消息元素
-        if (isEntryOrGiftElement(element)) {
-            return null; // 过滤掉进场和礼物消息
-        }
-
-        // 尝试多种方式提取弹幕文本（只提取内容部分，不包含用户名）
-        const contentSelectors = [
-            '.Barrage-text', // 弹幕文本
-            '.ChatItem-text', // 聊天文本
-            '.Barrage-content', // 弹幕内容
-            '[class*="text-content"]',
-            '.text',
-            '.content',
-        ];
-
-        for (const selector of contentSelectors) {
-            const el = element.querySelector(selector);
-            if (el && el.textContent.trim()) {
-                return el.textContent.trim();
-            }
-        }
-
-        // 如果找不到特定的内容元素，尝试从完整文本中提取
-        const fullText = element.textContent.trim();
-
-        // 尝试移除用户名部分（常见格式：用户名：内容 或 用户名:内容）
-        let text = fullText;
-
-        // 匹配 "用户名：" 或 "用户名:" 格式
-        const colonMatch = text.match(/^[^：:]+[：:]\s*(.+)$/);
-        if (colonMatch) {
-            text = colonMatch[1].trim();
-        }
-
-        return text;
-    }
-
-    // ========== 检测进场/礼物/系统消息元素 ==========
-    function isEntryOrGiftElement(element) {
-        // 检查元素的类名
-        const className = element.className || '';
-        const classStr = typeof className === 'string' ? className : className.baseVal || '';
-
-        // 进场消息的类名特征
-        const entryPatterns = [
-            'enter',
-            'entry',
-            'welcome',
-            'join',
-            'come',
-            'UserEnter',
-            'ChatEnter',
-        ];
-
-        // 礼物消息的类名特征
-        const giftPatterns = [
-            'gift',
-            'Gift',
-            'present',
-            'Present',
-            'reward',
-            'Reward',
-            'ChatGift',
-        ];
-
-        // 检查类名是否匹配
-        for (const pattern of entryPatterns) {
-            if (classStr.toLowerCase().includes(pattern.toLowerCase())) {
-                return true;
-            }
-        }
-
-        for (const pattern of giftPatterns) {
-            if (classStr.toLowerCase().includes(pattern.toLowerCase())) {
-                return true;
-            }
-        }
-
-        // 检查元素内部是否有礼物/进场相关的子元素
-        const innerHTML = element.innerHTML || '';
-        const text = element.textContent || '';
-
-        // 礼物相关关键词
-        const giftKeywords = ['送出', '赠送', '礼物', 'gift', 'Gift', '火箭', '飞机', '跑车', '游艇', '超火', '超级火箭'];
-        for (const keyword of giftKeywords) {
-            if (text.includes(keyword) || innerHTML.includes(keyword)) {
-                return true;
-            }
-        }
-
-        // 进场相关关键词
-        const entryKeywords = ['来了', '进场', '进入直播间', '欢迎', '来了', '已关注'];
-        for (const keyword of entryKeywords) {
-            if (text.includes(keyword)) {
-                return true;
-            }
-        }
-
-        // 检查是否有礼物图标（img标签且包含gift相关）
-        const imgElements = element.querySelectorAll('img');
-        for (const img of imgElements) {
-            const src = (img.src || '').toLowerCase();
-            const alt = (img.alt || '').toLowerCase();
-            if (src.includes('gift') || src.includes('present') ||
-                alt.includes('gift') || alt.includes('礼物')) {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
     // ========== 弹幕监控核心逻辑 ==========
     function collectDanmu() {
-        const danmuElements = getDanmuElements();
+        // 从 pendingDanmu 中取出 hook 拦截到的弹幕
+        while (pendingDanmu.length > 0) {
+            const item = pendingDanmu.shift();
+            if (!isBlockedWord(item.text)) {
+                state.danmuHistory.push(item);
+            }
+        }
+
+        // 清理过期数据
         const now = Date.now();
-
-        danmuElements.forEach(el => {
-            const text = extractDanmuText(el);
-            if (text && text.length > 0 && text.length < 100) {
-                // 过滤掉系统消息、进场消息、礼物消息、屏蔽词
-                if (!isSystemMessage(text) && !isEntryOrGiftMessage(text) && !isBlockedWord(text)) {
-                    state.danmuHistory.push({
-                        text: text,
-                        timestamp: now,
-                    });
-                }
-            }
-        });
-
-        // 清理过期的弹幕记录（超过时间窗口的）
         cleanOldDanmu(now);
-    }
-
-    // ========== 系统消息检测 ==========
-    function isSystemMessage(text) {
-        const systemKeywords = [
-            '系统消息',
-            '系统提示',
-            '管理员',
-            '禁言',
-            '屏蔽',
-            '封禁',
-            '警告',
-            '公告',
-        ];
-        return systemKeywords.some(keyword => text.includes(keyword));
-    }
-
-    // ========== 进场/礼物消息检测 ==========
-    function isEntryOrGiftMessage(text) {
-        // 进场消息关键词
-        const entryKeywords = [
-            '来了',
-            '进场',
-            '进入直播间',
-            '欢迎',
-            '已关注',
-            '关注了',
-            '分享了',
-            '刚刚来过',
-        ];
-
-        // 礼物消息关键词
-        const giftKeywords = [
-            '送出',
-            '赠送',
-            '礼物',
-            '火箭',
-            '飞机',
-            '跑车',
-            '游艇',
-            '超火',
-            '超级火箭',
-            '棒棒糖',
-            '鱼丸',
-            '荧光棒',
-        ];
-
-        // 检查是否包含进场关键词
-        for (const keyword of entryKeywords) {
-            if (text.includes(keyword)) {
-                return true;
-            }
-        }
-
-        // 检查是否包含礼物关键词
-        for (const keyword of giftKeywords) {
-            if (text.includes(keyword)) {
-                return true;
-            }
-        }
-
-        // 检测礼物格式：通常包含 "送出 xxx" 或 "x个xxx"
-        if (/送出\s*\d*\s*个/.test(text) || /\d+\s*个/.test(text) && /火箭|飞机|礼物/.test(text)) {
-            return true;
-        }
-
-        return false;
     }
 
     // ========== 屏蔽词检测 ==========
@@ -760,7 +754,6 @@
 
             state.isDragging = true;
             const rect = panel.getBoundingClientRect();
-            state.dragOffset.x = e.clientX - rect.left;
             state.dragOffset.y = e.clientY - rect.top;
 
             panel.style.transition = 'none';
@@ -770,21 +763,13 @@
             if (!state.isDragging) return;
 
             e.preventDefault();
-            let newX = e.clientX - state.dragOffset.x;
             let newY = e.clientY - state.dragOffset.y;
 
             // 限制在窗口内
-            const maxX = window.innerWidth - panel.offsetWidth;
             const maxY = window.innerHeight - panel.offsetHeight;
-
-            newX = Math.max(0, Math.min(newX, maxX));
             newY = Math.max(0, Math.min(newY, maxY));
 
-            panel.style.left = newX + 'px';
             panel.style.top = newY + 'px';
-            panel.style.right = 'auto';
-
-            state.panelPosition.x = newX;
             state.panelPosition.y = newY;
         });
 
@@ -846,18 +831,14 @@
         const btn = document.createElement('div');
         btn.id = 'dm-mini-btn';
 
-        // 计算吸附位置（右侧边缘）
-        const isRightSide = state.panelPosition.x === null ||
-                           state.panelPosition.x > window.innerWidth / 2;
-
         btn.style.cssText = `
             position: fixed;
-            ${isRightSide ? 'right: 0;' : 'left: 0;'}
+            right: 0;
             top: ${state.panelPosition.y}px;
             width: 32px;
             height: 32px;
             background: linear-gradient(135deg, #ff6b6b, #ee5a5a);
-            border-radius: ${isRightSide ? '8px 0 0 8px' : '0 8px 8px 0'};
+            border-radius: 8px 0 0 8px;
             display: none;
             align-items: center;
             justify-content: center;
@@ -881,6 +862,18 @@
         return btn;
     }
 
+    // ========== 面板位置自适应 ==========
+    window.addEventListener('resize', () => {
+        const panel = document.getElementById('danmu-monitor-panel');
+        if (!panel) return;
+
+        const maxY = window.innerHeight - panel.offsetHeight - 10;
+        if (state.panelPosition.y > maxY) {
+            state.panelPosition.y = Math.max(10, maxY);
+            panel.style.top = `${state.panelPosition.y}px`;
+        }
+    });
+
     // ========== 控制面板 ==========
     function createControlPanel() {
         // 如果面板已存在，先移除
@@ -892,16 +885,13 @@
         const panel = document.createElement('div');
         panel.id = 'danmu-monitor-panel';
 
-        const isRightSide = state.panelPosition.x === null ||
-                           (state.panelPosition.x && state.panelPosition.x > window.innerWidth / 2);
-
         panel.style.cssText = `
             position: fixed;
-            ${state.panelPosition.x !== null ? `left: ${state.panelPosition.x}px;` : 'right: 20px;'}
+            right: 0;
             top: ${state.panelPosition.y}px;
             width: 320px;
             background: rgba(0, 0, 0, 0.9);
-            border-radius: 8px;
+            border-radius: 8px 0 0 8px;
             padding: 15px;
             color: #fff;
             font-size: 12px;
@@ -909,7 +899,7 @@
             box-shadow: 0 4px 12px rgba(0,0,0,0.3);
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             transition: all 0.3s ease;
-            ${state.isPanelCollapsed ? 'transform: translateX(120%); opacity: 0;' : 'transform: translateX(0); opacity: 1;'}
+            ${state.isPanelCollapsed ? 'transform: translateX(100%); opacity: 0;' : 'transform: translateX(0); opacity: 1;'}
         `;
 
         panel.innerHTML = `
@@ -1169,6 +1159,9 @@
 
         // 始终启动弹幕收集和TOP5显示
         state.checkIntervalId = setInterval(checkAndSend, CONFIG.CHECK_INTERVAL);
+
+        // 启动主动WebSocket连接（补充hook可能遗漏的弹幕）
+        DouyuWS.start();
 
         // 应用保存的面板折叠状态
         if (state.isPanelCollapsed) {
